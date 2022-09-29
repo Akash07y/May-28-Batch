@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.TestNGClass2">
+        <methods>
+          <include name="verifyContactToHelpCenterButton"/>
+          <include name="openRoomPage"/>
+          <include name="clearObjects"/>
+          <include name="logoutFromApplication"/>
+          <include name="verifyReturnToMessangerButton"/>
+          <include name="openBrowser"/>
+          <include name="creatPOMObjects"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TestNGClass2 -->
+      <class name="tests.VerifyRoomsPage">
+        <methods>
+          <include name="verifyReturnToMessangerButton"/>
+          <include name="openRoomPage"/>
+          <include name="openBrowser"/>
+          <include name="clearObjects"/>
+          <include name="logoutFromApplication"/>
+          <include name="creatPOMObjects"/>
+          <include name="verifyContactToHelpCenterButton"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.VerifyRoomsPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="tests.TestNGClass2">
+        <methods>
+          <include name="verifyContactToHelpCenterButton"/>
+          <include name="openRoomPage"/>
+          <include name="clearObjects"/>
+          <include name="logoutFromApplication"/>
+          <include name="verifyReturnToMessangerButton"/>
+          <include name="openBrowser"/>
+          <include name="creatPOMObjects"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TestNGClass2 -->
+      <class name="tests.VerifyRoomsPage">
+        <methods>
+          <include name="verifyReturnToMessangerButton"/>
+          <include name="openRoomPage"/>
+          <include name="openBrowser"/>
+          <include name="clearObjects"/>
+          <include name="logoutFromApplication"/>
+          <include name="creatPOMObjects"/>
+          <include name="verifyContactToHelpCenterButton"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.VerifyRoomsPage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
