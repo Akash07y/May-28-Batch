@@ -20,17 +20,17 @@ public class LoginPage {
 	private WebElement userName ;
 	
 
-	@FindBy (xpath = "//input[@id='pass']") 
-	private WebElement password ;
+// 	@FindBy (xpath = "//input[@id='pass']") 
+// 	private WebElement password ;
 	
-	@FindBy (xpath = "//button[@name='login']") 
-	private WebElement loginButton ;
+// 	@FindBy (xpath = "//button[@name='login']") 
+// 	private WebElement loginButton ;
 	
-	@FindBy (xpath = "//a[text()='Create New Account']") 
-	private WebElement creatNewAccount ;
+// 	@FindBy (xpath = "//a[text()='Create New Account']") 
+// 	private WebElement creatNewAccount ;
 	
-	@FindBy (xpath = "//a[text()='Messenger']") 
-	private   WebElement messengerLink ;
+// 	@FindBy (xpath = "//a[text()='Messenger']") 
+// 	private   WebElement messengerLink ;
 	
 	public LoginPage(WebDriver driver)  // driver = driver = new ChromeDriver()
 	{
