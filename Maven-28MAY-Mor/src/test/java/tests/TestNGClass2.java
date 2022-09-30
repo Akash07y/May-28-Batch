@@ -37,26 +37,26 @@ public class TestNGClass2 extends Base{
 	@BeforeTest
 	public void openBrowser(String browserName) {
 		
-		System.out.println(browserName);
-		
-		if(browserName.equals("Chrome"))
-		{
-			
-			driver = openChromeBrowser();
-		}
-		
-		if(browserName.equals("Firefox"))
-		{
-			driver = openFirefoxBrowser();
-		}
-		
-		if(browserName.equals("Oprea"))
-		{
-			driver = openOperaBrowser();	
-		}
-		
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
+//		System.out.println(browserName);
+//		
+//		if(browserName.equals("Chrome"))
+//		{
+//			
+//			driver = openChromeBrowser();
+//		}
+//		
+//		if(browserName.equals("Firefox"))
+//		{
+//			driver = openFirefoxBrowser();
+//		}
+//		
+//		if(browserName.equals("Oprea"))
+//		{
+//			driver = openOperaBrowser();	
+//		}
+//		
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
 	}
 	
 	@BeforeClass

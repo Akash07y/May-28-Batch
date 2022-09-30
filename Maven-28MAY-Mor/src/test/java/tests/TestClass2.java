@@ -21,14 +21,14 @@ import pages.RoomsPage;
 
 public class TestClass2 {
 
-		@BeforeSuite
-		public void beforeSuite() {
-			System.out.println("Before Suite TestClass - 2");
-		}
-		@BeforeTest
-		public void beforeTest() {
-			System.out.println("Before Test TestClass - 2");
-		}
+//		@BeforeSuite
+//		public void beforeSuite() {
+//			System.out.println("Before Suite TestClass - 2");
+//		}
+//		@BeforeTest
+//		public void beforeTest() {
+//			System.out.println("Before Test TestClass - 2");
+//		}
 		
 		@BeforeClass
 		public void beforeClass() {
